@@ -1,0 +1,30 @@
+Apache Tomcat 10.0.22
+Useful references:
+
+Release notes, with important information about known issues
+Changelog
+NOTE: The tar files in this distribution use GNU tar extensions, and must be untarred with a GNU compatible version of tar. The version of tar on Solaris and Mac OS X will not work with these files.
+
+Tomcat 10.0 requires Java 8 or later. Read the RELEASE-NOTES and the RUNNING.txt file in the distribution for more details.
+
+Packaging Details (or "What Should I Download?")
+bin/
+apache-tomcat-[version].zip or .tar.gz
+Base distribution. These distributions do not include the Windows service wrapper nor the compiled APR/native library for Windows.
+apache-tomcat-[version].exe
+32-bit/64-bit Windows installer for Tomcat.   Please note that while this distribution includes the vast majority of the base distribution, some of the command-line scripts for launching Tomcat are not included. This distribution is intended for those users planning to launch Tomcat through the Windows shortcuts or services.
+apache-tomcat-[version]-windows-x86.zip
+32-bit Windows specific distribution that includes the Windows service wrapper and the compiled APR/native library for use with 32-bit JVMs on both 32 and 64 bit Windows platforms.
+apache-tomcat-[version]-windows-x64.zip
+64-bit Windows specific distribution that includes the Windows service wrapper and the compiled APR/native library for use with 64-bit JVMs on x64 Windows platforms.
+apache-tomcat-[version]-deployer.zip or .tar.gz
+The standalone Tomcat Web Application Deployer.
+apache-tomcat-[version]-fulldocs.tar.gz
+The Tomcat documentation bundle, including complete javadocs.
+src/
+apache-tomcat-[version].zip or .tar.gz
+The source code. See building instructions.
+Thank you for using Tomcat!
+
+The Apache Tomcat Project
+https://tomcat.apache.org/
